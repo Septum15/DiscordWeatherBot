@@ -1,7 +1,8 @@
 # DiscordWeatherBot
 
 Ez a discord bot egy egyszerű időjárás lekérdező bot.
-A felhasználó megtudhatja a keresett város hőmérsékletét, érzékelt hőmérsékletét, légnyomását, páratartalmát, láthatóságot illetve a szél sebbeségét.
+
+A felhasználó megtudhatja a keresett város hőmérsékletét, érzékelt hőmérsékletét, légnyomását, páratartalmát, láthatóságot illetve a szélsebességet.
 
 Használathoz szükség van a [discord.py](https://pypi.org/project/discord.py/) library-re.
 
@@ -13,7 +14,7 @@ Az első sorban a Discord botunk tokenjé-t tároljuk, amit [itt](https://discor
 A második sorban pedig az [openweathermap](https://home.openweathermap.org/api_keys) API kulcsnak kell lennie, ami regisztráció után érhető el.
 
 ## Használat
-Miután beálítottuk és elkezdtük futtatni a botunkat már lehet használni discordon.
+Miután beállítottuk  és elkezdtük futtatni a botunkat már lehet használni discordon.
 
 A bot a `!weather <városnév>` parancsra hallgat. 
 
