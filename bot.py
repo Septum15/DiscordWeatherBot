@@ -41,7 +41,5 @@ async def on_message(message):
         await message.channel.send("{} városban a páratartalom: {}%".format(varos, y["humidity"]))
         await message.channel.send("{} városban a láthatóság: {}km".format(varos, x["visibility"]/1000))
         await message.channel.send("{} városban a szél sebbesége: {}m/s".format(varos, x["wind"]["speed"]))
-        print(x)
-        
 
 client.run(cred[0])
